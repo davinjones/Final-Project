@@ -52,7 +52,6 @@ $(".col-md-4 a").click(function() {
     var href = $(this).attr("href");
     console.log(href);
     $image.attr("src", href);
-    
     $overlay.show();
     
     var captionText = $(this).children("img").attr("alt");
