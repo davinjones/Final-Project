@@ -146,11 +146,6 @@ footer {
     width: 75vh;
 }
 
-.alexkinglogo {
-   display: flex;
-    justify-content: center;
-}
-
 .textarea {
     width: 300px;
     height: 100px;
