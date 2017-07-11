@@ -61,4 +61,9 @@ $(".col-md-4 a").click(function() {
 
 $overlay.click(function() {
     $overlay.hide();
-})
+});
+
+$(".btn").click(function () {
+    event.preventDefault();
+    $(".col-md-8").replaceWith("<h1 class='curs submission'>Thank you for your submission!</h1>")
+});
