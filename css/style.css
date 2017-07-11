@@ -7,7 +7,13 @@ body {
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 50px;
+}
+
+label,
+input {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 footer {
@@ -78,6 +84,8 @@ footer {
 
 .textarea {
     padding: 2vh;
+    width: 500px;
+    height: 250px;
 }
 
 
@@ -117,6 +125,7 @@ footer {
     }
 }
 
+
 @media(max-width:767px) {
     .img-portfolio {
         margin-bottom: 15px;
@@ -126,3 +135,20 @@ footer {
         height: 70%;
     }
 }
+
+#overlay img {
+    width: 75vh;
+}
+
+.alexkinglogo {
+   display: flex;
+    justify-content: center;
+}
+
+.textarea {
+    width: 300px;
+    height: 100px;
+}
+
+
+   
