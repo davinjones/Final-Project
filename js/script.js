@@ -26,5 +26,6 @@ $overlay.click(function() {
 /* place holder response in lieu of back-end */
 $(".sub").click(function () {
     event.preventDefault();
+    console.log(this);
     $(".col-md-8").replaceWith("<h1 class='curs submission'>Thank you for your submission!</h1>")
 });
