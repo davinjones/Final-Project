@@ -1,13 +1,15 @@
+/* variables */
+
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");
-/* variables */
+
+/* lightbox jquery */
 $overlay.append($image);
 $overlay.append($caption);
 $("#portfolio").append($overlay);
 $overlay.hide();
 
-/* lightbox jquery */
 $(".col-sm-6 a").click(function() {
     event.preventDefault();
     var href = $(this).attr("href");
@@ -27,5 +29,5 @@ $overlay.click(function() {
 $(".sub").click(function () {
     event.preventDefault();
     console.log(this);
-    $(".col-md-8").replaceWith("<h1 class='curs submission'>Thank you for your submission!</h1>")
+    $(".col-md-8").replaceWith("<h1 class='curs submission'>Thank you for your submission!</h1><br><h4 class='curs submission'>Alexandra will get back to you soon!</h4>")
 });
