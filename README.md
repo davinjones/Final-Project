@@ -4,6 +4,6 @@
 * **index.html** - the bones of the project. Here you will see a mix of bootstrap classes/id's and personal
 * **style.css** - the styles of the project. Here you will see the basic styles for the overall project as well as specific styles for things such as the carousel, the lightboxes, and the contact form.
 * **script.js** - javascript/jquery or the function. Here you will find code allowing for the function of the lightboxes in the portfolio section as well as a placeholder script for responsiveness in the contact form.
-##### [HOSTED WEBPAGE](davinjones.github.io/Final-Project "Alexandra King")
+##### [HOSTED WEBPAGE](https://davinjones.github.io/Final-Project/ "Alexandra King")
 
 
