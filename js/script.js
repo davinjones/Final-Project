@@ -31,3 +31,7 @@ $(".sub").click(function () {
     console.log(this);
     $(".col-md-8").replaceWith("<h1 class='curs submission'>Thank you for your submission!</h1><br><h4 class='curs submission'>Alexandra will get back to you soon!</h4>")
 });
+
+/*attempt at offsetting fixed nav on navigation to hash-marked links */
+
+window.addEventListener("hashchange", function() { scrollBy(0, -50) });
